@@ -1,0 +1,62 @@
+@media (max-width: 991px) {
+
+    /*-- ============= work experience SECTION START ==================== --*/
+    #experience {
+        padding: 99px 0 70px;
+    }
+
+    #experience .timeline .company::after {
+        top: -21px;
+        left: -36px;
+
+    }
+
+    #experience .timeline .company::before {
+        top: -10px;
+        left: -25px;
+    }
+
+    #experience .timeline_row {
+        margin: 0;
+        margin-left: 15px;
+        padding: 10px 0 15px 15px;
+        border-left: 2px dashed #7a7a7a;
+    }
+
+    #experience .timeline_row .company {
+
+        border: none;
+    }
+
+
+    /*-- ============= work experience SECTION END ==================== --*/
+
+
+    /*-- ============= skill SECTION START ==================== --*/
+    #skill {
+        padding: 0 0 90px;
+    }
+
+    #skill .row {
+        margin: 0;
+    }
+
+
+    #skill .skill_contains h4 {
+        font-size: 44px;
+        margin-bottom: 39px;
+    }
+
+
+    #skill .skill_contains {
+        padding-bottom: 85px;
+    }
+
+
+    #skill .skill_progress .nav-item .nav-link {
+        padding: 15px 40px;
+    }
+
+
+    /*-- ============= skill SECTION END ==================== --*/
+}

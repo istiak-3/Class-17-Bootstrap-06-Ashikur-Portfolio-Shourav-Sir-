@@ -1,0 +1,390 @@
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "PT Sans", sans-serif;
+    --third-family: "Potta One", sans-serif;
+    --font3: "Baloo Da 2", sans-serif;
+    --dark-yellow: #F8BC17;
+    --emoji-yellow: #FFD233;
+    --dark: #353535;
+    --button-yellow: #FFCC00;
+}
+
+
+body {
+    font-family: var(--font-family);
+}
+
+/*-- ============= work experience SECTION START ==================== --*/
+#experience {
+    padding: 180px 0 90px;
+}
+
+#experience .heading h3 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #353535;
+    margin-bottom: 100px;
+}
+
+#experience .timeline h4 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    color: #353535;
+}
+
+#experience .timeline .company p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #7a7a7a;
+
+    margin-bottom: 120px;
+}
+
+#experience .timeline .designation p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    color: #7a7a7a;
+
+    margin-bottom: 44px;
+}
+
+#experience .timeline .company {
+    position: relative;
+    border-right: 2px dashed #7a7a7a;
+
+}
+
+#experience .timeline .company::after {
+    content: "";
+    position: absolute;
+
+    height: 42px;
+    width: 42px;
+    background: #fff;
+    border: 2px dashed #7a7a7a;
+    border-radius: 50%;
+
+    top: -21px;
+    right: -21px;
+
+}
+
+#experience .timeline .company::before {
+    content: "";
+    position: absolute;
+
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+
+    top: -10px;
+    right: -10px;
+
+    z-index: 1;
+
+
+
+}
+
+#experience .timeline .timeline_row:nth-child(3n + 1) .company::before {
+
+
+    background: #52ab70;
+}
+
+#experience .timeline .timeline_row:nth-child(3n + 2) .company::before {
+
+    background: #F17676;
+}
+
+#experience .timeline .timeline_row:nth-child(3n + 3) .company::before {
+
+    background: #FFD233;
+}
+
+
+
+/* 
+#experience .timeline .company.green::before {
+
+    background: #52ab70;
+
+}
+
+#experience .timeline .company.red::before {
+
+    background: #F17676;
+
+}
+
+#experience .timeline .company.yellow::before {
+
+    background: #FFD233;
+
+} */
+
+/*-- ============= work experience SECTION END ==================== --*/
+
+/*-- ============= skill SECTION START ==================== --*/
+#skill {
+    padding: 90px 0;
+}
+
+#skill .skill_contains h4 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    color: #353535;
+    margin-bottom: 49px;
+}
+
+#skill .skill_contains p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    color: #7a7a7a;
+
+    margin-bottom: 39px;
+}
+
+#skill .skill_contains a {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    color: #fff;
+    display: inline-block;
+    background: #ffcc00;
+    border-radius: 12px;
+    padding: 10px 21px;
+    text-decoration: none;
+
+    display: inline-flex;
+    outline: 1px solid transparent;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 5px 0 #ffcc0052;
+
+
+}
+
+#skill .skill_contains a:hover {
+    color: #ffcc00;
+    background: #fff;
+    outline: 1px solid #ffcc00;
+
+    box-shadow: 3px 5px 15px 0.5px #ffcc005e;
+
+
+}
+
+#skill .skill_contains span {
+    display: inline-flex;
+    align-items: center;
+
+    margin-left: 11px;
+}
+
+#skill .nav-tabs {
+    border: 0;
+}
+
+#skill .skill_progress .nav-item .nav-link {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: center;
+    color: #353535;
+    background: #fff;
+    border: 1px solid transparent;
+    border-radius: 20px;
+
+    display: inline-block;
+    padding: 15px 60px;
+}
+
+#skill .skill_progress .nav-item .nav-link.active {
+    border: 1px solid #000 !important;
+    transition: border 0.4s ease-in-out;
+}
+
+#skill .skill_progress .progress_label h3 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    color: #353535;
+}
+
+#skill .progress_part .progress_label h4 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    /* text-align: right; */
+}
+
+#skill .progress_part:hover .progress {
+    transform: scale(1.03);
+
+    box-shadow: 1px 4px 10px 1px #0000001a, -1px -4px 10px 0.5px #afafaf1a;
+}
+
+#skill .progress_part .progress {
+    transition: all 0.3s ease-in-out;
+
+}
+
+#skill .progress_part {
+    cursor: pointer;
+
+}
+
+
+
+
+
+#skill .tab-pane .progress_part:nth-child(1) .progress_label h4 {
+
+    color: #f16500;
+}
+
+#skill .tab-pane .progress_part:nth-child(2) .progress_label h4 {
+
+    color: #03249b;
+}
+
+#skill .tab-pane .progress_part:nth-child(3) .progress_label h3 {
+
+    color: #700D60;
+}
+
+#skill .tab-pane .progress_part:nth-child(3) .progress_label h4 {
+
+    color: #700D60;
+}
+
+#skill .tab-pane .progress_part:nth-child(4) .progress_label h3 {
+
+    color: #234BDA;
+}
+
+#skill .tab-pane .progress_part:nth-child(4) .progress_label h4 {
+
+    color: #234BDA;
+}
+
+
+
+
+
+
+#skill .tab-content .tab-pane:nth-child(2) .progress_part:nth-child(1) .progress_label h3 {
+
+    color: #700D60;
+}
+
+#skill .tab-content .tab-pane:nth-child(2) .progress_part:nth-child(1) .progress_label h4 {
+
+    color: #700D60;
+}
+
+#skill .tab-content .tab-pane:nth-child(2) .progress_part:nth-child(2) .progress_label h3 {
+
+    color: #234BDA;
+}
+
+#skill .tab-content .tab-pane:nth-child(2) .progress_part:nth-child(2) .progress_label h4 {
+
+    color: #234BDA;
+}
+
+#skill .progress_part {
+    padding-top: 44px;
+}
+
+/*-- ============= skill SECTION END ==================== --*/
+
+
+/*-- ============= service SECTION START ==================== --*/
+#service {
+    padding: 70px 0 100px;
+    background: #FFF7D5;
+}
+
+#service .service_heading h3 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #353535;
+    margin-bottom: 13px;
+}
+
+#service .service_heading p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: center;
+    color: #7a7a7a;
+    width: 50%;
+    margin: 0 auto 100px;
+}
+
+#service .service_row .service_card {
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+    padding: 32px 48px 79px;
+    text-align: center;
+
+    width: 350px;
+    height: 422px;
+    margin: 0 10px;
+    transition: all 0.4s ease-in-out;
+
+}
+
+#service .service_row .service_card.active {
+    transform: scale(1.06);
+    transform-origin: bottom;
+
+    background: linear-gradient(#FFCC00, #FFE476);
+
+}
+
+#service .service_row .service_card h4 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    text-align: center;
+    color: #353535;
+
+    margin: 20px 0 25px;
+}
+
+#service .service_row .service_card p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 180%;
+    text-align: center;
+    color: #7a7a7a;
+
+
+    height: 140px;
+    overflow: hidden;
+}
+
+/*-- ============= service SECTION END ==================== --*/
