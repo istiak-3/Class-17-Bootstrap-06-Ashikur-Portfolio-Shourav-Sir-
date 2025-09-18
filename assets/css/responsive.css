@@ -74,6 +74,9 @@
         margin: 0 auto 100px;
     }
 
+        #service .service_row {
+        margin: 0;
+    }
 
     #service .service_row .service_card {
         width: 330px;
@@ -93,3 +96,4 @@
 
     /*-- ============= service SECTION END ==================== --*/
 }
+
