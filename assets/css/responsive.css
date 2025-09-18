@@ -59,4 +59,37 @@
 
 
     /*-- ============= skill SECTION END ==================== --*/
+
+    /*-- ============= service SECTION START ==================== --*/
+
+
+
+    #service .service_heading h3 {
+        font-size: 44px;
+    }
+
+
+    #service .service_heading p {
+        width: 100%;
+        margin: 0 auto 100px;
+    }
+
+
+    #service .service_row .service_card {
+        width: 330px;
+        height: 410px;
+        margin: 15px 10px;
+    }
+
+
+    #service .service_row .service_card.active {
+        transform: scale(1.06);
+        transform-origin: initial;
+
+        background: linear-gradient(#FFCC00, #FFE476);
+
+    }
+
+
+    /*-- ============= service SECTION END ==================== --*/
 }
